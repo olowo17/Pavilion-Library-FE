@@ -24,10 +24,9 @@ This is a JavaFX-based frontend for a Library Management System. It provides a g
 ```bash
 git clone <your-repo-url>
 cd <repo-folder>
-Ensure the backend API is running at http://localhost:8080/api/books.
+2. Ensure the backend API is running at http://localhost:8080/api/books.
 
-Build the project with Maven:
-mvn javafx:run
+3. Build the project with Maven: mvn javafx:run
 
 
 ## Usage

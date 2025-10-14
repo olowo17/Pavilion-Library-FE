@@ -1,0 +1,81 @@
+package com.pavilion.libraryui;/* Global background */
+#rootPane {
+    -fx-background-color: linear-gradient(to bottom, #f4f6f9, #e2e6ea);
+}
+
+/* Toolbar */
+.toolbar {
+    -fx-background-color: linear-gradient(to right, #4a90e2, #007ad9);
+    -fx-spacing: 8;
+    -fx-padding: 10;
+}
+
+.toolbar-label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.search-field {
+    -fx-background-radius: 5;
+    -fx-prompt-text-fill: #ddd;
+}
+
+/* Buttons */
+.primary-btn {
+    -fx-background-color: #2ecc71;
+    -fx-text-fill: white;
+    -fx-background-radius: 5;
+}
+.accent-btn {
+    -fx-background-color: #f39c12;
+    -fx-text-fill: white;
+    -fx-background-radius: 5;
+}
+.danger-btn {
+    -fx-background-color: #e74c3c;
+    -fx-text-fill: white;
+    -fx-background-radius: 5;
+}
+.neutral-btn {
+    -fx-background-color: #95a5a6;
+    -fx-text-fill: white;
+    -fx-background-radius: 5;
+}
+
+.primary-btn:hover,
+.accent-btn:hover,
+.danger-btn:hover,
+.neutral-btn:hover {
+    -fx-opacity: 0.85;
+    -fx-cursor: hand;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+    -fx-transition: all 0.3s ease-in-out;
+}
+
+/* TableView */
+.data-table {
+    -fx-background-color: white;
+    -fx-border-color: #ddd;
+    -fx-border-radius: 5;
+
+}
+
+/* Form Pane */
+.form-pane {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #dcdcdc;
+    -fx-border-radius: 5;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 5, 0.2, 0, 2);
+}
+
+/* Text Fields */
+.text-field {
+    -fx-background-radius: 5;
+}
+
+/* Labels */
+.label {
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+}

@@ -26,8 +26,7 @@ git clone https://github.com/olowo17/Pavilion-Library-FE.git
 cd Pavilion-Library-FE
 Ensure the backend API is running at http://localhost:8080/api/books.
 
-Build the project with Maven:
-mvn javafx:run
+3. Build the project with Maven: mvn javafx:run
 
 
 ## Usage

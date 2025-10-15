@@ -18,4 +18,6 @@ module com.pavilion.libraryui {
     opens com.pavilion.libraryui.service to javafx.fxml;
     exports com.pavilion.libraryui.controller;
     opens com.pavilion.libraryui.controller to javafx.fxml;
+    exports com.pavilion.libraryui.exception;
+    opens com.pavilion.libraryui.exception to javafx.fxml;
 }

@@ -22,8 +22,8 @@ This is a JavaFX-based frontend for a Library Management System. It provides a g
 
 1. Clone the repository:
 ```bash
-git clone <your-repo-url>
-cd <repo-folder>
+git clone https://github.com/olowo17/Pavilion-Library-FE.git
+cd Pavilion-Library-FE
 Ensure the backend API is running at http://localhost:8080/api/books.
 
 Build the project with Maven:

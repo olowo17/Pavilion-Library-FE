@@ -1,10 +1,9 @@
 package com.pavilion.libraryui.service;
 
-import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
-import com.pavilion.libraryui.BookServiceException;
+import com.pavilion.libraryui.exception.BookServiceException;
 import com.pavilion.libraryui.model.Book;
 import com.pavilion.libraryui.model.BookPageResponse;
 import org.springframework.stereotype.Service;

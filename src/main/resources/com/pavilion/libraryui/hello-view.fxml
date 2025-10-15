@@ -25,7 +25,7 @@
   <center>
     <VBox alignment="CENTER">
         <HBox alignment="CENTER">
-            <TableView fx:id="tableView" styleClass="data-table" prefWidth="1000" prefHeight="400">
+            <TableView fx:id="tableView" styleClass="data-table" prefWidth="600" prefHeight="400">
                 <columns>
                     <TableColumn text="ID" fx:id="colId" />
                     <TableColumn text="Title" fx:id="colTitle" />

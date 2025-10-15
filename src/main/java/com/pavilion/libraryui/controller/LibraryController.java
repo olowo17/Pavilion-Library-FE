@@ -28,7 +28,7 @@ public class LibraryController {
 
     private int currentPage = 0;
     private int totalPages = 1;
-    private final int pageSize = 10;
+    private final int pageSize = 15;
 
     @FXML
     private TableView<Book> tableView;
